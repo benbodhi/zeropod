@@ -1,0 +1,60 @@
+/*
+ Theme Name:     ZEROPOD
+ Theme URI:      https://tns.wtf
+ Description:    ZEROPOD Theme
+ Author:         Benbodhi
+ Author URI:     https://benbodhi.energy
+ Template:       plexx
+ Version:        1.0.0
+ Tags: translation-ready,theme-options,custom-menu,tns,the noun square,zeropod
+*/
+
+@media screen and (max-width: 959px) {
+    .home .item-description {
+        display: none;
+    }
+}
+.item-description {
+    bottom: 11px;
+    right: 11px;
+    left: 11px;
+}
+.item-description h2 {
+    font-size: 18px;
+    line-height: 22px;
+}
+.portfolio-item-slug .video-popup:before {
+	top: 36%;
+}
+.fancybox__caption {
+    padding: 0;
+    margin: 2rem;
+}
+a.mintlink {
+    border: 2px solid;
+    padding: 1rem 2rem;
+}
+@media screen and (max-width: 337px) {
+    a.mintlink {
+        padding: 0.7rem 1rem;
+    }
+}
+@media screen and (max-width: 310px) {
+    a.mintlink {
+        padding: 0.2rem;
+        border: none;
+        text-decoration: underline;
+    }
+}
+.blog-simple h2 {
+    line-height: 3rem;
+    font-size: 2rem;
+    margin-top: 0.8rem;
+}
+.home #page-title {
+    padding: 1rem;
+}
+.home #page-title h1 {
+    padding: 0;
+    font-size: 48px;
+}
